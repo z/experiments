@@ -7,11 +7,15 @@
 #
 
 function css_desaturate() {
-	old_stylesheet=$1
-	new_stylesheet=$(echo ${1} | sed 's/\(.*\)\(\.css\)$/\1_desaturated\2/i')
+	if [[ "$1" == "" ]]; then
+		old_stylesheet="default.css"
+	else
+		old_stylesheet=$1
+	fi
+	new_stylesheet=$(echo ${old_stylesheet} | sed 's/\(.*\)\(\.css\)$/\1_desaturated\2/i')
 	cp $old_stylesheet $new_stylesheet
 	echo -e "\n -= Converting Stylesheet: $old_stylesheet to $new_stylesheet =-\n"
-	for line in $(grep -i "\#\([0-9a-f]\{3\}\|[0-9a-f]\{6\}\)" ${1}); do
+	for line in $(grep -i "\#\([0-9a-f]\{3\}\|[0-9a-f]\{6\}\)" ${old_stylesheet}); do
 		# grab the color
 		color=$(echo $line | grep -i "\#\([0-9a-f]\{3\}\|[0-9a-f]\{6\}\)" | sed 's/.*\#\([0-9a-f]\{6\}\|[0-9a-f]\{3\}\).*/\#\1/gi')
 		if [[ "$color" != "" ]]; then
@@ -22,7 +26,7 @@ function css_desaturate() {
 		fi
 	done
 	echo -e "\n -= Converting Images =-\n"
-	for line in $(grep -i "url(.*)" $1 | sed "s/.*('\(.*\)').*/\1/gi"); do
+	for line in $(grep -i "url(.*)" $old_stylesheet | sed "s/.*('\(.*\)').*/\1/gi"); do
 		old_image=$line
 		# Images
 		echo "  -> desaturating: $line"
