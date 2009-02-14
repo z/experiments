@@ -1,9 +1,10 @@
 #!/bin/bash
 #
-# Title: Desaturate CSS files
+# Title: CSS Effects
 # Created By: Tyler Mulligan of www.detrition.net
 #
-# Usage: place script in the same folder as your stylesheet and ./desaturate style.css
+# Usage: Place script in the same folder as your stylesheet(s) and:
+# chmod +x css_effects.sh && ./css_effects [-r|-d] [--da] style.css
 #
 
 function convert_all_css() {
@@ -110,10 +111,15 @@ function image_random() {
 	convert -fx G $old_image $new_image
 }
 
+function help() {
+	echo -e "\n-d <style.css>   desaturate (defaults to default.css)\n"
+	echo -e "-r <style.css>   random (defaults to lolwut.css)\n"
+	echo -e "--da             desaturate all style sheets\n"
+}
 # Case swtich to filter params
 case $1 in
   -d) css_desaturate $2;;
   -r) css_random $2;;
   --da) convert_all_css $2;;
-  #*) css_desaturate;;
+  *) help;;
 esac
