@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Tyler Mulligan - www.detrition.net" />
-<title>Desaturation Test</title>
+<title>CSS Effects Test</title>
 <!--<link rel="stylesheet" type="text/css" href="css/default.css" title="default" media="screen" />-->
 <!--<link rel="stylesheet" type="text/css" href="css/default_desaturated.css" title="default" media="screen" />-->
 <script type="text/javascript">
