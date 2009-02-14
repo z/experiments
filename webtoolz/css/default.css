@@ -1,0 +1,79 @@
+/*
+Style Sheet Written by Tyler Mulligan
+http://www.detrition.net
+*/
+body {
+	height:100%;
+	margin:0;
+	padding:20px;
+	font-family:Verdana, Arial, Tahoma, Sans Serif;
+	background-color:#5E728F;
+	color:#3B2300;
+}
+
+
+h1 { font-size:25px; }
+h2 { font-size:16px; }
+h1, h2 { text-align:right; }
+
+a {	color:#FFDB6A; }
+a:hover { color:#000; }
+
+#header {
+	float:right;
+}
+
+#test_case {
+	float:left;
+	background:#000 url('img/color_test.png') 0 0 no-repeat;
+	width:99px;
+	height:718px;
+	border:4px solid #000;
+}
+
+#test {
+	float:left;
+	width:500px;
+	height:718px;
+	padding:16px 20px 20px 120px;
+}
+
+#test div.red { background-color: #FF0000; color: #483; }
+#test div.green { background-color: #00FF00; color: #c53; }
+#test div.blue { background-color: #0000FF; color: #42a; }
+#test div.yellow { background-color: #FFFF00; color: #059; }
+#test div.cyan { background-color: #00FFFF; color: #a45; }
+#test div.pink { background-color: #FF00FF; color: #45a; }
+
+
+#test div.r1 { background-color: #080000; }
+#test div.r2 { background-color:#100000; }
+#test div.r3 { background-color:#180000; }
+#test div.r4 { background-color:#200000; }
+#test div.r5 { background-color:#280000; }
+#test div.r6 { background-color:#300000; }
+#test div.r7 { background-color:#380000; }
+#test div.r8 { background-color:#400000; }
+#test div.r9 { background-color:#480000; }
+#test div.r10 { background-color:#500000; }
+#test div.r11 { background-color:#580000; }
+#test div.r12 { background-color:#600000; }
+#test div.r13 { background-color:#680000; }
+#test div.r14 { background-color:#700000; }
+#test div.r15 { background-color:#780000; }
+#test div.r16 { background-color:#800000; }
+#test div.r17 { background-color:#880000; }
+#test div.r18 { background-color:#900000; }
+#test div.r19 { background-color:#980000; }
+#test div.r20 { background-color:#A00000; }
+#test div.r21 { background-color:#A80000; }
+#test div.r22 { background-color:#B00000; }
+#test div.r23 { background-color:#B80000; }
+#test div.r24 { background-color:#C00000; }
+#test div.r25 { background-color:#C80000; }
+#test div.r26 { background-color:#D00000; }
+#test div.r27 { background-color:#D80000; }
+#test div.r28 { background-color:#E00000; }
+#test div.r29 { background-color:#E80000; }
+#test div.r30 { background-color:#F00000; }
+#test div.r31 { background-color:#F80000; }

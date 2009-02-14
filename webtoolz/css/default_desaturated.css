@@ -1,0 +1,79 @@
+/*
+Style Sheet Written by Tyler Mulligan
+http://www.detrition.net
+*/
+body {
+	height:100%;
+	margin:0;
+	padding:20px;
+	font-family:Verdana, Arial, Tahoma, Sans Serif;
+	background-color:#8F8F8F;
+	color:#3B3B3B;
+}
+
+
+h1 { font-size:25px; }
+h2 { font-size:16px; }
+h1, h2 { text-align:right; }
+
+a {	color:#FFFFFF; }
+a:hover { color:#000000000000; }
+
+#header {
+	float:right;
+}
+
+#test_case {
+	float:left;
+	background:#000000000000 url('img/color_test_desaturated.png') 0 0 no-repeat;
+	width:99px;
+	height:718px;
+	border:4px solid #000000000000;
+}
+
+#test {
+	float:left;
+	width:500px;
+	height:718px;
+	padding:16px 20px 20px 120px;
+}
+
+#test div.red { background-color: #FFFFFF; color: #888888; }
+#test div.green { background-color: #FFFFFF; color: #CCCCCC; }
+#test div.blue { background-color: #0000000000000FF; color: #AAAAAA; }
+#test div.yellow { background-color: #FFFFFF; color: #999999; }
+#test div.cyan { background-color: #FFFFFF; color: #AAAAAA; }
+#test div.pink { background-color: #FFFFFF; color: #AAAAAA; }
+
+
+#test div.r1 { background-color: #080808; }
+#test div.r2 { background-color:#101010; }
+#test div.r3 { background-color:#181818; }
+#test div.r4 { background-color:#202020; }
+#test div.r5 { background-color:#282828; }
+#test div.r6 { background-color:#303030; }
+#test div.r7 { background-color:#383838; }
+#test div.r8 { background-color:#404040; }
+#test div.r9 { background-color:#484848; }
+#test div.r10 { background-color:#505050; }
+#test div.r11 { background-color:#585858; }
+#test div.r12 { background-color:#606060; }
+#test div.r13 { background-color:#686868; }
+#test div.r14 { background-color:#707070; }
+#test div.r15 { background-color:#787878; }
+#test div.r16 { background-color:#808080; }
+#test div.r17 { background-color:#888888; }
+#test div.r18 { background-color:#909090; }
+#test div.r19 { background-color:#989898; }
+#test div.r20 { background-color:#A0A0A0; }
+#test div.r21 { background-color:#A8A8A8; }
+#test div.r22 { background-color:#B0B0B0; }
+#test div.r23 { background-color:#B8B8B8; }
+#test div.r24 { background-color:#C0C0C0; }
+#test div.r25 { background-color:#C8C8C8; }
+#test div.r26 { background-color:#D0D0D0; }
+#test div.r27 { background-color:#D8D8D8; }
+#test div.r28 { background-color:#E0E0E0; }
+#test div.r29 { background-color:#E8E8E8; }
+#test div.r30 { background-color:#F0F0F0; }
+#test div.r31 { background-color:#F8F8F8; }

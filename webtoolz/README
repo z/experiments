@@ -1,0 +1,13 @@
+Webpage conversion and generation script experiments
+
+CSS Desaturation
+
+
+It's still fresh out of my mind but I've done enough of a proof of concept to check this in.
+
+After rethinking the hex conversion, I realized I over simplified and the algorithm needs to be 
+rethought for desaturation as currently #f00, #0f0, #00f become white.
+
+I've created a color test image for the test case.
+
+Bug with 0's
