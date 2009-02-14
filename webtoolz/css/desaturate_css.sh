@@ -18,7 +18,7 @@ function css_desaturate() {
 			# replace the color in the stylesheet
 			desaturated=$(hex_desaturate $color)
 			echo "  -> $color to $desaturated"
-			sed -i "s/${color}/${desaturated}/g" $new_stylesheet
+			sed -i "s/${color}\(\s\|\;\)/${desaturated}\1/g" $new_stylesheet
 		fi
 	done
 	echo -e "\n -= Converting Images =-\n"

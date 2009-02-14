@@ -46,7 +46,7 @@ a:hover { color:#000; }
 #test div.pink { background-color: #FF00FF; color: #45a; }
 
 
-#test div.r1 { background-color: #080000; }
+#test div.r1 { background-color:#080000; }
 #test div.r2 { background-color:#100000; }
 #test div.r3 { background-color:#180000; }
 #test div.r4 { background-color:#200000; }
