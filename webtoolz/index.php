@@ -17,8 +17,10 @@
 	<h1>Desaturated Webpage Generator</h1>
 	<h2>by Tyler Mulligan of <a href="http://www.doknowevil.net/" title="Tyler Mulligan of www.doknowevil.net" target="_blank">www.doknowevil.net</a>
 	<ul>
-		<li><a href="javascript: document.cookie='style=default'; window.location.reload();">Color</a></li>
-		<li><a href="javascript: document.cookie='style=default_desaturated'; window.location.reload();">Desaturated</a></li>
+		<li><a href="javascript: document.cookie='style=default'; window.location.reload();">Default: Color Original</a></li>
+		<li><a href="javascript: document.cookie='style=default_desaturated'; window.location.reload();">Default: Desaturated</a></li>
+		<li><a href="javascript: document.cookie='style=lolwut_random'; window.location.reload();">lolwut_random: Color Original</a></li>
+		<li><a href="javascript: document.cookie='style=lolwut_random_desaturated'; window.location.reload();">lolwut: Random Desaturated</a></li>
 	</ul>
 </div>
 <div id="content">
